@@ -10,6 +10,22 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+#lock file from gradle
+*.lock
+
+#bin file from gradle
+*.bin
+
+#Gradle folder
+.gradle/
+
+#IJ Folder
+.idea/
+
+build/reports/tests/
+
+.DS_Store
+
 # Package Files #
 *.jar
 *.war
